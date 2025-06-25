@@ -16,7 +16,7 @@ const UserSchema = new mongoose.Schema({
     password:String,
     purchasedCourses:[{
         type: mongoose.Types.ObjectId,
-        ref: "course"
+        ref: "Course"
     }]
 });
 
